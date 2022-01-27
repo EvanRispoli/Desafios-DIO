@@ -13,7 +13,7 @@ public class Mentoria extends Conteudo{
     private String descricao;
     private LocalDate data;
 
-    public Integer calcularXp() {
-        return null;
+    public double calcularXp() {
+        return XP_PADRAO + 20d;
     }
 }

@@ -5,7 +5,7 @@ import lombok.Data;
 import static br.com.dio.desafio.dominio.Conteudo.XP_PADRAO;
 
 @Data
-public class Curso {
+public class Curso extends Conteudo {
     private String titulo;
     private String descricao;
     private int cargaHoraria;
